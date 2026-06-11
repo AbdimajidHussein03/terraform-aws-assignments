@@ -33,3 +33,25 @@ terraform/
     ├── outputs.tf
     ├── user_data.sh
     └── variables.tf
+
+## Files Used
+
+- `main.tf` – contains the AWS provider, security group rules, and EC2 instance resource
+- `variables.tf` – stores reusable values such as the AWS region, AMI ID, instance type, and project name
+- `outputs.tf` – outputs the public IP address and WordPress URL after deployment
+- `user_data.sh` – installs and configures Apache, MariaDB, PHP, and WordPress on the EC2 instance
+- `.gitignore` – prevents Terraform state files and local generated files from being pushed to GitHub
+- `.terraform.lock.hcl` – records the provider version used by Terraform
+- `screenshots/wordpress.png` – shows the working WordPress deployment
+
+## Terraform Commands Used
+
+The following Terraform commands were used during the deployment:
+
+```bash
+terraform init
+terraform fmt
+terraform validate
+terraform plan
+terraform apply
+terraform output
