@@ -4,32 +4,6 @@ This repository contains Terraform assignments completed as part of my DevOps le
 
 The projects demonstrate how Terraform can be used to automate AWS infrastructure deployment using Infrastructure as Code.
 
-## Repository Structure
-
-```text
-terraform/
-├── assignment-1-wordpress/
-│   ├── screenshots/
-│   │   └── wordpress.png
-│   ├── .gitignore
-│   ├── .terraform.lock.hcl
-│   ├── main.tf
-│   ├── outputs.tf
-│   ├── provider.tf
-│   ├── user_data.sh
-│   └── variables.tf
-│
-└── assignment-2-cloud-init-ec2/
-    ├── screenshots/
-    │   └── cloud-init-working.png
-    ├── .gitignore
-    ├── cloud-init.yaml
-    ├── main.tf
-    ├── outputs.tf
-    ├── provider.tf
-    └── variables.tf
-```
-
 # Assignment 1 – WordPress Deployment with Terraform
 
 ## Objective
